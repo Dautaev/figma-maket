@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #FAFAFA;
+    padding: 40px;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+}
+
+.nav {
+    width: 330px;
+}
+
+.gift-finder {
+    width: 140px;
+}
+
+.nav {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gift-finder {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: #F7941E;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feuaters {
+    background-color: #F1F1F1;
+
+}
+
+.feuaters-info,
+.feuaters-work {
+    display: flex;
+    align-items: center;
+}
+
+.feuaters-desk,
+.feuaters-img {
+    width: 50%;
+}
+
+.feuaters img {
+    display: block;
+}
+
+.feuaters .content {
+    width: 430px;
+    margin: auto;
+}
+
+.feuaters-title {
+    font-size: 55px;
+}
+
+.feuaters-subtitle {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.feuaters-desk p {
+    font-size: 20px;
+}
+
+.feuaters .find-gift-button {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #F7941E;
+    border-radius: 5px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.feuaters .learn-more-button {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: #F7941E;
+    text-transform: uppercase;
+}
+
+.wrap {
+    width: 1170px;
+    margin: auto;
+    padding: 90px 0;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.occasions .title,
+.occasions .subtitle,
+.blogs .title,
+.blogs .subtitle {
+    text-align: center;
+}
+
+.occasions-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.occasions-card-item {
+    width: 270px;
+    background-color: #FAFAFA;
+    transition: .3s;
+}
+
+.occasions-card-item {
+    background-color: #FFF;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, .05);
+}
+
+.card-desc {
+    padding: 24px;
+}
+
+.occasions-cards .see-more {
+    margin-top: 75px;
+    font-size: 14px;
+}
+
+.cta {
+    background-color: #F7941E;
+}
+
+.cta .wrap {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-info h3,
+.cta-info p {
+    font-size: 32px;
+    margin: 0%;
+}
+
+.cta-action {
+    width: 415px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-buttons div {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.button-primary {
+    background-color: #231f20;
+    color: #FFF;
+
+}
+
+.button-secondary {
+    border: 1px solid #231f20;
+}
+
+.blog-card {
+    background-color: #231f20;
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.blog-card-img {
+    width: 400px;
+}
+
+.blog-card-img img {
+    display: block;
+}
+
+.blog-card-info {
+    width: 500px;
+    padding: 0 80px;
+}
+
+.blog-card h3 {
+    font-size: 48px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.blog-card .author {
+    font-size: 14px;
+    color: #FFF;
+}
+
+.blog-card .read-more {
+    color: #FFF;
+}
+
+.blog-subcards {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.blog-subcard {
+    width: 570px;
+    padding: 50px;
+    transition: .3s;
+}
+
+.blog-subcard:hover {
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, .05);
+}
+
+.blog-subcard h4 {
+    font-size: 18px;
+}
+
+.blog-subcard .read-more {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #FAFAFA;
+    padding: 11pa 0 35px;
+}
+
+footer nav {
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+.footer-nav li {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.footer-logo {
+    padding: 0 115px !important;
+
+}
+
+.footer-logo img {
+    width: auto;
+}
+
+.line {
+    width: 1000px;
+    margin: 55px auto;
+    border: 1px solid black;
+}
+
+footer .social {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
